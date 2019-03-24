@@ -16,6 +16,9 @@
     "url": "https://github.com/0x6C38/srt/issues"
   },
   "homepage": "https://github.com/0x6C38/srt#readme",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
