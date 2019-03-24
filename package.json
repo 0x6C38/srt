@@ -4,12 +4,16 @@
   "description": "A high performance table component to perform real time searches on collections of thousands of items.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel ./src --out-dir ./dist -s inline",
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0x6C38/srt.git"
   },
+  "files": [
+    "dist/*"
+  ],
   "author": "Danilo Salvio",
   "license": "ISC",
   "bugs": {
