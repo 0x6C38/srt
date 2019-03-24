@@ -1,0 +1,19 @@
+{
+  "name": "@ds-labs.xyz/srt",
+  "version": "1.0.0",
+  "description": "A high performance table component to perform real time searches on collections of thousands of items.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x6C38/srt.git"
+  },
+  "author": "Danilo Salvio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0x6C38/srt/issues"
+  },
+  "homepage": "https://github.com/0x6C38/srt#readme"
+}
