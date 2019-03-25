@@ -7,7 +7,11 @@ A searchable table react component that can filter items in real time and handle
     npm i @ds-labs.xyz/srt
 
 ## Usage
-The component takes in a number of different properties:
+First of all, import the component:
+
+    import {GenericTable} from "@ds-labs.xyz/srt"
+
+These are the properties that it takes:
 
     Pagination.propTypes = {
         items: PropTypes.array.isRequired,
