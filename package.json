@@ -1,6 +1,6 @@
 {
   "name": "@ds-labs.xyz/srt",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A high performance table component to perform real time searches on collections of thousands of items.",
   "main": "dist/index.js",
   "scripts": {
@@ -21,19 +21,19 @@
   },
   "homepage": "https://github.com/0x6C38/srt#readme",
   "peerDependencies": {
-    "react": "^16.8.0",
-    "@ds-labs.xyz/srp": "1.0.1"
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
-    "@ds-labs.xyz/srp": "^1.0.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "@ds-labs.xyz/srp": "1.0.1"
   }
 }
