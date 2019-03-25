@@ -2,6 +2,7 @@ import React, {Fragment, useState} from "react"
 import {Pagination} from "@ds-labs.xyz/srp";
 import {TableHead} from "./TableHead";
 import {TableBody} from "./TableBody";
+import PropTypes from 'prop-types'
 
 export const GenericTable = ({items, itemsPerPage, itemToRow, columnNames, itemMatchesTerm}) => {
     const [page, setPage] = useState(1)
@@ -42,5 +43,13 @@ export const GenericTable = ({items, itemsPerPage, itemToRow, columnNames, itemM
                               onPageChange={pageChanged}/>
 
     return <Fragment>{searchC}{tableC}{pages}</Fragment>
+}
+
+Pagination.propTypes = {
+    items: PropTypes.array.isRequired,
+    itemsPerPage: PropTypes.number.isRequired,
+    itemToRow: PropTypes.func.isRequired,
+    columnNames: PropTypes.arrayOf(PropTypes.string).isRequired,
+    itemMatchesTerm: PropTypes.func.isRequired
 }
 
