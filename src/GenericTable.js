@@ -17,9 +17,9 @@ export const GenericTable = ({items, itemsPerPage, itemToRow, columnNames, itemM
 
 
     const offset = Math.max(0, (page - 1) * itemsPerPage)
-    let term = search.toLowerCase()
+    // let term = search.toLowerCase()
 
-    const filteredItems = term.length > 0 ? items.filter(item => itemMatchesTerm(item, term)) : items
+    const filteredItems = search.length > 0 ? items.filter(item => itemMatchesTerm(item, search)) : items
 
     const visibleItems = filteredItems.slice(offset, itemsPerPage + offset)
 
