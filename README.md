@@ -1,6 +1,8 @@
 # Searchable React Table
 A searchable table react component that can filter items in real time and handle pagination.
 
+![demo](images/srt-demo.gif)
+
 ## Set up
 `srt` can be installed from [`npm`](https://www.npmjs.com/package/@ds-labs.xyz/srt) by running:
 
