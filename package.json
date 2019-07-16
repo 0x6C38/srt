@@ -34,6 +34,6 @@
   },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "@ds-labs.xyz/srp": "1.0.1"
+    "@ds-labs.xyz/srp": "1.1.0"
   }
 }
